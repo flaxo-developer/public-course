@@ -1,0 +1,6 @@
+script: ./run_tests.sh plus minus
+
+# disabling email notifications
+notifications:
+  email: false
+  webhooks: http://localhost:8080/rest/travis/hook
